@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Twitter Feed</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Twitter Stream</h2>
+</div>
+<div class="container">
+    <div id="tweets"></div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+<script src="https://fb.me/react-0.13.3.js"></script>
+
+<!-- inject:js -->
+<script src="app/socket/tweets.io.js"></script>
+<script src="app/components/twitter-feed/titter-list.child.js"></script>
+<script src="app/components/twitter-feed/tweet.child.js"></script>
+<script src="app/components/twitter-feed/twitter-feed.js"></script>
+<!-- endinject -->
+
+
+</body>
+</html>

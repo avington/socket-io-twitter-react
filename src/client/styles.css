@@ -1,0 +1,44 @@
+/* Flex Container!!! */
+body {
+    background-color: #D1DBBD;
+    color: #193441;
+}
+
+
+.tweet-container {
+    display: flex;
+    border: 1px #193441 solid;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 1px #2F2933 solid;
+    background-color: #3E606F;
+    color: #FCFFF5;
+    align-items: center;
+    width: 80%;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box-container-panel {
+    flex: 1;
+}
+
+.box-container-panel-user {
+    flex-basis: 100px;
+}
+
+.box-container-panel-text {
+    flex: 5;
+}
+
